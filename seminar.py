@@ -1,11 +1,15 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 u"""
-Script para gerar página de seminário para o site da EMAp
+Script para gerar página de seminário para o site da EMAp.
+Este script requer que o terminal onde os parâmetro são passados esteja 
+configurado para codificação utf-8.
 
 Exemplo de uso:
-./seminar.py -a "ze mané" -t "o título da palestra" -r resumo.txt -b "bla bla bla" -d 2012 4 20
-[2012, 4, 20, 'o titulo da palestra']
+./seminar.py -a "zé mané" -t "o título da palestra" -r resumo.txt -b "bla bla bla" -d 2012 4 20
+
+copyright 2012 Flávio Codeço Coelho
+License: GPL v3
 """
 
 #import requests
